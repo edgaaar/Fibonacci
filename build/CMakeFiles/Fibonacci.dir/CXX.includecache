@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Fibonacci.h
+iostream
+-
+
+/home/edgar/Programas/Fibonacci/src/Fibonacci.cpp
+Fibonacci.h
+/home/edgar/Programas/Fibonacci/src/Fibonacci.h
+
+/home/edgar/Programas/Fibonacci/src/main.cpp
+Fibonacci.h
+/home/edgar/Programas/Fibonacci/src/Fibonacci.h
+
